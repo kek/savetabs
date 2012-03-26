@@ -1,0 +1,8 @@
+Purpose:
+
+Tabs are good for collecting information, but not for organizing. I am
+looking for a way to save all open web pages into an external system
+(A wiki document, e-mail, etc.)
+
+The first version of the extension will convert the current window's
+tabs into a list of titles and URLs in Markdown or JSON format.

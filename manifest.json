@@ -1,13 +1,11 @@
 {
   "name": "Save tabs",
-  "version": "0.1",
+  "version": "0.0.1",
+  "manifest_version": 2,
   "description": "Save the tabs in the current window as text",
   "browser_action": {
     "default_icon": "icon.png",
-    "popup": "popup.html"
+    "default_popup": "popup.html"
   },
-  "permissions": [
-    "clipBoardWrite",
-    "tabs"
-  ]
+  "permissions": [ "tabs" ]
 }

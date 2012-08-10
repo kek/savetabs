@@ -7,6 +7,12 @@ function savetabs () {
                 tab = tabs[i];
                 content.innerHTML += '[' + tab.url + ' ' + tab.title + '] \n\n';
             }
+            content.select();
+            document.execCommand('Copy');
         }
     );
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  savetabs();
+});

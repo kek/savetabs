@@ -5,7 +5,7 @@ function savetabs () {
         function(tabs) {
             for (var i in tabs) {
                 tab = tabs[i];
-                content.innerHTML += '[' + tab.url + ' ' + tab.title + '] \n\n';
+                content.innerHTML += '* [' + tab.url + ' ' + tab.title + '] \n';
             }
             content.select();
             document.execCommand('Copy');
